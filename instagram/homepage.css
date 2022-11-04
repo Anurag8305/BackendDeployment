@@ -1,0 +1,42 @@
+#columns {
+	border: 1px solid red;
+	display: flex;
+	justify-content: space-between;
+}
+#columns #left {
+	width: 20%;
+	border: 1px solid blue;
+}
+#left img {
+	width: 100%;
+}
+#left svg {
+	margin-top: 3px;
+	margin-right: 10px;
+}
+#columns #right {
+	width: 20%;
+	border: 1px solid blue;
+}
+#columns #mainbodyupper {
+	width: 50%;
+	border: 1px solid green;
+}
+#buttons {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 10px;
+}
+#mainbody div {
+	margin-bottom: 20px;
+	padding: 20px;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+		rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+	border-radius: 10px;
+}
+#mainbody img {
+	width: 100%;
+}
+#mainbody p {
+	text-align: center;
+}
